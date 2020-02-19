@@ -42,6 +42,13 @@ public class PictureTester
     temple.mirrorTemple();
     temple.explore();
   }
+
+  public static void testMirrorVerticalRightToLeft(){
+    Picture temple = new Picture("beach.jpg");
+    temple.explore();
+    temple.mirrorVerticalRightToLeft();
+    temple.explore();
+  }
   
   /** Method to test the collage method */
   public static void testCollage()
@@ -93,8 +100,9 @@ public class PictureTester
     //testKeepOnlyGreen();
     //testNegate();
     //testGrayscale();
-    testFixUnderwater();
+    //testFixUnderwater();
     //testMirrorVertical();
+    testMirrorVerticalRightToLeft();
     //testMirrorTemple();
     //testMirrorArms();
     //testMirrorGull();
