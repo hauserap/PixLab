@@ -44,7 +44,7 @@ public class PictureTester
   }
 
   public static void testMirrorVerticalRightToLeft(){
-    Picture temple = new Picture("beach.jpg");
+    Picture temple = new Picture("caterpillar.jpg");
     temple.explore();
     temple.mirrorVerticalRightToLeft();
     temple.explore();
